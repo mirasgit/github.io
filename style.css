@@ -1,1 +1,78 @@
 
+body {
+	background-image: url(unset);
+}
+.headbar {
+	background-color: #F8F8F8;
+	margin-left: 10px;
+}
+.table {
+
+	background-color: #F96363; /* background of menu */
+	height: 10px;
+}
+.menus-border {
+	background-color: #FF3A3A;
+	color: #F96363;
+}
+#logo {
+	width: 150px;
+	height: 150px;
+}
+#searchbar {
+	text-align:;
+}
+.contacts {
+	background-color: #FFF3F3;
+}
+
+.menubtn {
+	text-align: center;
+	border-style: none;
+	background: #F96363; /* to change */
+	color: white;
+	font-size: 22.5px;
+	display: block;
+	
+}
+.menu {
+	color: whitesmoke;
+	font-weight: 600;
+}
+.menubtn:hover {
+	background: darkred;
+}
+.line {
+	margin: 50px;
+	margin-top: 100px;
+	color: black;
+	border-radius: 60px;
+	box-shadow: 2px 3px 7px black;
+}
+#fields {
+	text-align: center;
+}.scale {
+    display: inline-block; /* Строчно-блочный элемент */
+    overflow: hidden; /* Скрываем всё за контуром */
+   }
+   .scale img {
+    transition: 1s; /* Время эффекта */
+    display: block; /* Убираем небольшой отступ снизу */
+   }
+   .scale img:hover {
+    transform: scale(1.2); /* Увеличиваем масштаб */
+   }
+.select-field {
+	display: block;
+	color: whitesmoke;
+	border-spacing: 10px 20px;
+	border-collapse: separate;
+	text-align: center;
+	width: 1500px;
+}
+.scale2 {
+    transition: 1s; /* Время эффекта */
+   }
+   .scale2:hover {
+    transform: scale(1.2); /* Увеличиваем масштаб */
+   }
