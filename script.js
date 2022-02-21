@@ -8,7 +8,6 @@ homeBtn.addEventListener("click", function() {
 });
 
 const navLinks = document.querySelectorAll(".nav__link");
-let aboutBtn = document.querySelector("nav__link__about");
 window.addEventListener("scroll", function() {
    let scrollPos = window.scrollY;
     if (scrollPos > 681){
@@ -26,8 +25,3 @@ for(let navItem of navLinks){
        console.log(navItem.text); 
     });
 }
-
-window.addEventListener("click", function(){
-   
-});
-
