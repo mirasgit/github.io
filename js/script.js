@@ -19,7 +19,7 @@ window.addEventListener("scroll", function() {
     }
 });
 aboutBtn.addEventListener("click", function(){
-    scrollY = 681;
+    scrollY = 680;
 });
 for(let navItem of navLinks){
     navItem.addEventListener("click", function(){
@@ -27,7 +27,7 @@ for(let navItem of navLinks){
     });
 }
 
-window.addEventListener("click", function(){
-   
+aboutBtn.addEventListener("scroll", function() {
+   window.scrollY = pageYOffset + "680"; 
 });
 
