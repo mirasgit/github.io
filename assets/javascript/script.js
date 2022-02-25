@@ -18,16 +18,25 @@ window.addEventListener("scroll", function() {
         header.classList.remove("blue");
     }
 });
-aboutBtn.addEventListener("click", function(){
-    scrollY = 681;
-});
+
 for(let navItem of navLinks){
     navItem.addEventListener("click", function(){
        console.log(navItem.text); 
     });
 }
 
-window.addEventListener("click", function(){
-   
+aboutBtn.addEventListener("scroll", function() {
+   window.scrollY = pageYOffset + "680"; 
 });
 
+const donateBtn = document.querySelector("#nav__link__donate");
+donateBtn.addEventListener("click", function() {
+    
+    alert("5169 4987 5686 9087");
+    
+});
+function clickSound() {
+    var audio = new Audio(); 
+  audio.src= "assets/sounds/click.mp3";
+  audio.autoplay = true; 
+}
