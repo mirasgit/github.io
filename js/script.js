@@ -18,9 +18,7 @@ window.addEventListener("scroll", function() {
         header.classList.remove("blue");
     }
 });
-aboutBtn.addEventListener("click", function(){
-    scrollY = 680;
-});
+
 for(let navItem of navLinks){
     navItem.addEventListener("click", function(){
        console.log(navItem.text); 
